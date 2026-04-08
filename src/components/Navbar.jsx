@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-1 group cursor-pointer">
             <div>
               <img
-                src="src/assets/LogoDark.png"
+                src="/LogoDark.png"
                 alt="Xstack Logo"
                 className="w-10 h-10 sm:w-15 sm:h-15"
               />
