@@ -98,7 +98,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
             
             <p className="text-gray-400 text-xs sm:text-sm">
-              © 2025 XStack Labs. All rights reserved.
+              © 2026 XStack Labs. All rights reserved.
             </p>
 
             <p className="text-gray-400 text-xs sm:text-sm">
