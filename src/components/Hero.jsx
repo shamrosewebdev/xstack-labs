@@ -3,9 +3,9 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { ChevronDown, Sparkles, ArrowRight, Play } from "lucide-react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { codeExamples } from "../data/codeExamples";
+import { CodeExamples } from "../data/CodeExamples";
 import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import { floatingCards } from "../data/codeExamples";
+import { floatingCards } from "../data/CodeExamples";
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -138,7 +138,7 @@ const Hero = () => {
                         height: "100%",
                       }}
                     >
-                      {codeExamples[currentTab]}
+                      {CodeExamples[currentTab]}
                     </SyntaxHighlighter>
                   </div>
                 </div>

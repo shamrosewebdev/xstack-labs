@@ -1,4 +1,4 @@
-export const codeExamples = {
+export const CodeExamples = {
   "App.jsx": `import { useState } from "react";
 import { XStackLabs } from "@XStack/labs";
 
